@@ -45,7 +45,7 @@ if(keyDown("right")){
 if(bunny.isTouching(carrot)){
   textSize(20);
   text("YOU WIN",250,80);
-  snake.x=0;
+  //snake.x=0;
 }
 if(bunny.isTouching(brick1)){
   bunny.x=40;
